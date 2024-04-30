@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Backend URL
-backend_url = 'http://localhost:9090/sum'  # Change to your backend URL
+backend_url = 'http://13.233.88.51:9090/sum'  # Change to your backend URL
 
 @app.route('/')
 def index():
