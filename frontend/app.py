@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # Backend URL
-backend_url = 'http://k8s-ingress-proxying-71c3bd3b41-499156717.ap-south-1.elb.amazonaws.com/sum'  # Change to your backend URL
+backend_url = 'http://localhost:9090/sum'  # Change to your backend URL
 
 @app.route('/')
 def index():

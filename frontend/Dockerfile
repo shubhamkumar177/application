@@ -6,4 +6,4 @@ COPY . .
 
 RUN pip install flask requests
 
-CMD python3 app.py
+CMD python app.py
